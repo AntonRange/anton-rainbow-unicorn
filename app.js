@@ -6,10 +6,10 @@ var person = {
     canDrink: false
 };
 console.log(person);
-function stringtest(x) {
-    console.log("Hejsan ".concat(x));
+function stringreturn(x) {
+    console.log("Hej ".concat(x));
 }
-stringtest(person.name);
+stringreturn(person.name);
 for (var i = 0; i <= (arr.length - 1); i++) {
-    console.log(arr[i]);
+    stringreturn(arr[i]);
 }

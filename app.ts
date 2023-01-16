@@ -18,12 +18,12 @@ console.log(person)
 
 
 
-function stringtest(x) {
-    console.log(`Hejsan ${x}`)
+function stringreturn(x: any) {
+    console.log(`Hej ${x}`)
 }
-stringtest(person.name)
+stringreturn(person.name)
 
 
 for (let i = 0; i <= (arr.length - 1); i++) {
-    console.log(arr[i])
+    stringreturn(arr[i])
 }
