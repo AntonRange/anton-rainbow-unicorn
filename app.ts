@@ -15,3 +15,15 @@ const person: objInterface = {
 }
 
 console.log(person)
+
+
+
+function stringtest(x) {
+    console.log(`Hejsan ${x}`)
+}
+stringtest(person.name)
+
+
+for (let i = 0; i <= (arr.length - 1); i++) {
+    console.log(arr[i])
+}
